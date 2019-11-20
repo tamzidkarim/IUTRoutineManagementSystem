@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="routine:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c2bdecd-8e01-48e9-8fce-cdc1e28d1c44" name="Default Changelist" comment="user login fixed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/courseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/editRoutine.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main_scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/perfect-scrollbar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/homeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/routineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/routineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/courseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/courseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/courseDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/courseDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/routineDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/routineDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/routineDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/routineDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/userDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/userDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/service/userService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/service/userService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/addRoutine.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/addRoutine.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/coursePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/coursePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/facultyPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/facultyPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/routineselector.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/routineselector.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/viewRoutine.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/viewRoutine.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/countdowntime.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/countdowntime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/daterangepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/daterangepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.nice-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.nice-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/main_all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main_all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/main_login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main_login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/popper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/popper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/controller/homeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/controller/homeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/controller/routineController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/controller/routineController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/dao/courseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/dao/courseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/dao/courseDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/dao/courseDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/dao/routineDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/dao/routineDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/dao/routineDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/dao/routineDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/dao/userDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ahmedrafayat/dao/userDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/controller/homeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/controller/homeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/controller/routineController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/controller/routineController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/dao/courseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/dao/courseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/dao/courseDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/dao/courseDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/dao/routineDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/dao/routineDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/dao/routineDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/dao/routineDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/dao/userDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/classes/com/ahmedrafayat/dao/userDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/view/addRoutine.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/view/addRoutine.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/view/coursePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/view/coursePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/view/facultyPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/view/facultyPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/view/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/view/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/view/routineselector.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/view/routineselector.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/WEB-INF/view/viewRoutine.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/WEB-INF/view/viewRoutine.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/countdowntime.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/countdowntime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/daterangepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/daterangepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/jquery.nice-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/jquery.nice-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/main_all.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/main_all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/main_login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/main_login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/routine/resources/js/popper.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/routine/resources/js/popper.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="iutroutine@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="iutroutine@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="iutroutine@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="iutroutine: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1007508672">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="522" />
+          <entry key="jsp" value="242" />
+          <entry key="xml" value="314" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="522" />
+          <entry key="JSP" value="242" />
+          <entry key="XML" value="314" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="jsp" value="2" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="JSP" value="2" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1331317193">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="6" />
+          <entry key="css" value="69" />
+          <entry key="java" value="123" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="27" />
+          <entry key="jsp" value="85" />
+          <entry key="png" value="1" />
+          <entry key="rnc" value="7" />
+          <entry key="scss" value="1" />
+          <entry key="sql" value="2" />
+          <entry key="svg" value="1" />
+          <entry key="xml" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="6" />
+          <entry key="CSS" value="69" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="123" />
+          <entry key="JSP" value="85" />
+          <entry key="JavaScript" value="27" />
+          <entry key="RNG Compact" value="7" />
+          <entry key="SCSS" value="1" />
+          <entry key="SVG" value="1" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="79" />
+          <entry key="dummy" value="24" />
+          <entry key="java" value="9111" />
+          <entry key="jsp" value="7510" />
+          <entry key="sql" value="15" />
+          <entry key="txt" value="55" />
+          <entry key="xml" value="144" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="79" />
+          <entry key="JAVA" value="9111" />
+          <entry key="JSP" value="7510" />
+          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="Scratch" value="15" />
+          <entry key="XML" value="144" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/homeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2601">
+              <caret line="165" column="28" selection-start-line="165" selection-start-column="28" selection-end-line="165" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/viewRoutine.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5338">
+              <caret line="314" column="13" lean-forward="true" selection-start-line="314" selection-start-column="13" selection-end-line="314" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/routineDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/routineController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3859">
+              <caret line="246" column="81" selection-start-line="246" selection-start-column="81" selection-end-line="246" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/addRoutine.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2397">
+              <caret line="141" column="2" selection-start-line="141" selection-start-column="2" selection-end-line="141" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="hibernate-configuration-5.2" />
+        <option value="hibernate-main-5.2" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>background</find>
+      <find>style</find>
+      <find>container-login100</find>
+      <find>select2-dropdown</find>
+      <find>depreca</find>
+      <find>span</find>
+      <find>.logo</find>
+      <find>viewroutine.jsp</find>
+      <find>default=&quot;---&quot;</find>
+      <find>nav</find>
+      <find>data-t</find>
+      <find>http</find>
+      <find>url</find>
+      <find>font-face</find>
+      <find>font</find>
+      <find>faculty</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/hamburgers.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/animsition.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/animsition.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/select2.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/moment.min.js" />
+        <option value="$USER_HOME$/Downloads/LoginpageBootstrap/Login_v16/vendor/daterangepicker/moment.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/select2.min.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/util.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap_all.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap-dropdownhover.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-dropdownhover.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style_all.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/main_login.css" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/googlefonts.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/routinePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/model/Routine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/model/Faculty.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/addFaculty.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/facultyDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/facultyDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/facultyController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/facultyPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/courseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/courseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/courseController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/perfect-scrollbar.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/coursePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/service/userService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/userDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/loginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/addRoutine.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/editRoutine2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/editRoutine.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/routineDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/routineselector.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/routineDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/homeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/routineController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/viewRoutine.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="routine Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="170" />
+    <option name="width" value="780" />
+    <option name="height" value="840" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ahmedrafayat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ahmedrafayat" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ahmedrafayat" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ahmedrafayat" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ahmedrafayat" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="routine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="routine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="routine" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="routine" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543579811043" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="E:/E-Commerce-Website-For-IUTians" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github Repositories\routine\src\main\webapp\resources\js" />
+      <recent name="E:\Github Repositories\routine\src\main\webapp\resources\font" />
+      <recent name="E:\Github Repositories\routine\src\main\webapp\resources\css" />
+      <recent name="E:\Github Repositories\routine\src\main\webapp\resources\images" />
+      <recent name="E:\Github Repositories\routine\src\main\webapp\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 14.0.1.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk1.8.0_191">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="routine:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9399" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="routine:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c2bdecd-8e01-48e9-8fce-cdc1e28d1c44" name="Default Changelist" comment="" />
+      <created>1542017300234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542017300234</updated>
+      <workItem from="1542017302065" duration="8391000" />
+      <workItem from="1542045423952" duration="219000" />
+      <workItem from="1542354853336" duration="750000" />
+      <workItem from="1542424934023" duration="3320000" />
+      <workItem from="1542525647887" duration="1697000" />
+      <workItem from="1542568801585" duration="295000" />
+      <workItem from="1542584722658" duration="20677000" />
+      <workItem from="1542758905936" duration="20712000" />
+      <workItem from="1542943345235" duration="53984000" />
+      <workItem from="1543016353675" duration="14024000" />
+      <workItem from="1543122291190" duration="14476000" />
+      <workItem from="1543140347912" duration="2235000" />
+      <workItem from="1543142868461" duration="4994000" />
+      <workItem from="1543147959695" duration="601000" />
+      <workItem from="1543175896112" duration="21767000" />
+      <workItem from="1543471483164" duration="824000" />
+      <workItem from="1543557825838" duration="21162000" />
+      <workItem from="1543608948277" duration="629000" />
+      <workItem from="1543613062099" duration="624000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="193355000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4989518" visible="true" weight="0.2590604" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="8" sideWeight="0.5010482" side_tool="true" weight="0.2590604" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.25135428" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49946696" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.33002833" />
+      <window_info anchor="bottom" id="Database Changes" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32719547" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.398017" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.3286119" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.3286119" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.6765101" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Database" order="9" visible="true" weight="0.13892618" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="motamoti" />
+    <MESSAGE value="hoitese kaam" />
+    <MESSAGE value="user login fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="user login fixed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/facultyPage.jsp</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="345" column="16" selection-start-line="345" selection-start-column="16" selection-end-line="345" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/meta.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1330">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style_select.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main_login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/googlefonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="93" lean-forward="true" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/roomPage.jsp" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/frontController-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/model/Routine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap_all.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6919" column="1" lean-forward="true" selection-start-line="6919" selection-start-column="1" selection-end-line="6919" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/ClientPreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1169">
+          <caret line="792" selection-start-line="792" selection-end-line="792" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/facultyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/courseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/model/Faculty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/facultyDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="46" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/facultyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="60" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/perfect-scrollbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/perfect-scrollbar.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/main_scrollbar.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/main_all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/util.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="165" column="22" lean-forward="true" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/main_login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/coursePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="92" column="25" lean-forward="true" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style_all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="409" column="1" selection-start-line="409" selection-start-column="1" selection-end-line="409" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/service/userService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/service/userServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="61" column="74" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/editRoutine2.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/routineDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/userDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/userDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/courseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="119" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/editRoutine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="74" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/routineselector.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="74" column="19" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/facultyPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/addFaculty.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="113" column="12" lean-forward="true" selection-start-line="113" selection-start-column="12" selection-end-line="122" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/courseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/homeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2601">
+          <caret line="165" column="28" selection-start-line="165" selection-start-column="28" selection-end-line="165" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/dao/routineDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ahmedrafayat/controller/routineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3859">
+          <caret line="246" column="81" selection-start-line="246" selection-start-column="81" selection-end-line="246" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6871#6879#0" expanded="true" />
+            <element signature="e#7127#7135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/addRoutine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="2" selection-start-line="141" selection-start-column="2" selection-end-line="141" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/viewRoutine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5338">
+          <caret line="314" column="13" lean-forward="true" selection-start-line="314" selection-start-column="13" selection-end-line="314" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>routine:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|routine</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet:jstl:1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
